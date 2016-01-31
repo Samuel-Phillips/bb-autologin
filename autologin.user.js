@@ -4,9 +4,16 @@
 // @name bb-autologin
 // @namespace https://www.samuelphillips.net/gmscripts
 // @run-at document-idle
-// @version 0.0.1
+// @version 0.0.2
 // ==/UserScript==
 
 var form = document.querySelector('form[target=_top][name=login]' +
         '[action=/webapps/login/]');
-if (form) form.submit();
+if (form) {
+    console.log("BB-AUTOLOGIN: Pushing the button now!");
+    form.submit();
+} else {
+    console.log("BB-AUTOLOGIN: Could not find login button");
+    form.submit();
+}
+
