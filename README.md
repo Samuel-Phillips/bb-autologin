@@ -9,4 +9,4 @@ temporarily disableing GreaseMonkey.
 
 # Install
 
-[Clich Here](autologin.user.js)
+[Click Here](https://raw.githubusercontent.com/Samuel-Phillips/bb-autologin/master/autologin.user.js)
