@@ -4,7 +4,7 @@
 // @name bb-autologin
 // @namespace https://www.samuelphillips.net/gmscripts
 // @run-at document-idle
-// @version 0.0.3
+// @version 1.0.0
 // ==/UserScript==
 
 var form = document.querySelector('form[target="_top"][name="login"]' +
